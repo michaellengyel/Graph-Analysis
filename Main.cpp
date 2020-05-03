@@ -19,7 +19,7 @@ void dijkstra(const unsigned int start) {
 
 	const int startingNode = start;
 	Matrix matrix;
-	IOHandler ioHandler("input/input.txt", "output/output_dijkstra.txt");
+	IOHandler ioHandler("input.txt", "output_dijkstra.txt");
 	ioHandler.readFile(matrix);
 	Graph graph(matrix);
 	std::string data;
@@ -53,7 +53,7 @@ void color(const unsigned int start) {
 
 	const int startingNode = start;
 	Matrix matrix;
-	IOHandler ioHandler("input/input.txt", "output/output_color.txt");
+	IOHandler ioHandler("input.txt", "output_color.txt");
 	ioHandler.readFile(matrix);
 	Graph graph(matrix);
 	std::string data;
@@ -79,7 +79,7 @@ void color(const unsigned int start) {
 void hamilton(const unsigned int start) {
 
 	Matrix matrix;
-	IOHandler ioHandler("input/input.txt", "output/output_hamilton.txt");
+	IOHandler ioHandler("input.txt", "output_hamilton.txt");
 	ioHandler.readFile(matrix);
 	Graph graph(matrix);
 	std::string data;
