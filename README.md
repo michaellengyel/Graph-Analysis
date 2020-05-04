@@ -18,3 +18,4 @@ $ ./main<br/>
 4. Refactor Graph Coloring logic.  
 5. Refactor Hamilton Cycle logic.  
 6. Implement graph sanity checks in Matrix.cpp (e.g node can't connect to itself).  
+7. Refactor all **for** loops to use iterators.
