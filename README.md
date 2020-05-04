@@ -18,4 +18,6 @@ $ ./main<br/>
 4. Refactor Graph Coloring logic.  
 5. Refactor Hamilton Cycle logic.  
 6. Implement graph sanity checks in Matrix.cpp (e.g node can't connect to itself).  
-7. Refactor all **for** loops to use iterators.
+7. Refactor all **for** loops to use iterators.  
+8. Refector Node struct. The Id variable is not needed. Change m_cost to a more generic names, since the same variable is used for different purposes in the three algorithms.  
+9. In the Graph Coloring algorithm m_cost = 0 is reserved for designating the node as uncolored (open). This should be changed by using the values of the Sate enum to store this information.
